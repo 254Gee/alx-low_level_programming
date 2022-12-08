@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main - prints exactly and that piece of art is useful
+ * main - Entry point
  *
  * Retun: Always 0 (successful)
  */
