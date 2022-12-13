@@ -2,7 +2,7 @@
 
 /**
  * main - prints all possible combinations of two two-digit numbers
- * Returns: Alwasys 0
+ * Return: Always 0
  *
  */
 
