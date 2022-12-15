@@ -12,7 +12,7 @@ int main(void)
 	unsigned long fb1_hf1, fb1_hf2, fb2_hf1, fb2_hf2;
 	unsigned long hf1, hf2;
 
-	for (count = 1; count < 92; count++)
+	for (count = 0; count < 92; count++)
 	{
 		sum = fb1 + fb2;
 		printf("%lu, ", sum);
