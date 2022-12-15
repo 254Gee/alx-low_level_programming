@@ -1,15 +1,13 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - entry
- * Return: Always 0
+ * add - add the values
+ * @n1: the first value
+ * @n2: the sceond value
+ * Return:Integer value
  */
 
-int main(void)
+int add(int n1, int n2)
 {
-	int n;
-	n = add(89, 9);
-	printf("%d\n", n);
-	return (0);
+	return (n1 + n2);
 }
