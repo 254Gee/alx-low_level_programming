@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time_table - prints x9 table
+ * times_table - prints x9 table
  * Return: empty output
  */
 
