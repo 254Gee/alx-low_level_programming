@@ -8,17 +8,17 @@
 
 int main(void)
 {
-	long x, maxf;
-	long number = 612852475143;
-	double square = sqrt(number);
-
-	for (x = 1; x <= square; x++)
+	long int n, pn;
+	
+	n = 612852475143;
+	for (pn = 2; pn <= n; pn++)
 	{
-		if (number % x == 0)
+		if (n % pn == 0)
 		{
-			maxf = number / x;
+			n /= pn;
+			pn++;
 		}
 	}
-	printf("%ld\n", maxf);
+	printf("%ld\n", pn);
 	return (0);
 }
