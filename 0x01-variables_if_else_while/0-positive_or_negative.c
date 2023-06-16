@@ -6,8 +6,7 @@
 
 
 /**
-
- * main - Determines if a number is positive, negative or zero.
+ * Main - Determines if a number is positive, negative or zero.
 
  *
 
