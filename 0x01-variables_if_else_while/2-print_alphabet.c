@@ -5,7 +5,7 @@
  * Return: Always 0 (Success)
  */
 
-int nain(void)
+int main(void)
 {
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
